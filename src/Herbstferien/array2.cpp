@@ -18,7 +18,7 @@ int main() {
     
     cout << "Gebe 0 fuer absteigend ein." << endl;
     cout << "Gebe 1 fuer aufsteigend ein." << endl;
-    cout << "[0, 1]";
+    cout << "[0, 1] ";
     cin >> aufsteigend;
     for(int i = 0; i < arrayLength; i++) {
 
