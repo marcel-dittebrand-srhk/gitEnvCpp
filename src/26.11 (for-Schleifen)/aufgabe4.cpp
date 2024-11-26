@@ -1,3 +1,7 @@
+/*
+    Die Aufgabe worde auf Basis von Aufgabe 3 gemacht.
+*/
+
 #include <iostream>
 
 int main() {
@@ -28,7 +32,7 @@ int main() {
         Geht nachdem der obere Rahmen aus O ausgeben worden ist,
         in die nächste Zeile.
     */
-    
+
     cout << endl;
 
     for(int x = 0; x < z1; x++) {

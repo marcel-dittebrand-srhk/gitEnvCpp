@@ -1,3 +1,8 @@
+/*
+    Die Aufgabe 3 ist die spiegelverkehrte (Rechts-Links-Spiegelung)
+    Version der Aufgabe 2.
+*/
+
 #include <iostream>
 
 int main() {
