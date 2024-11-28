@@ -8,7 +8,7 @@ int main (){
     int z2;
 
     cout << "z1: "; cin >> z1;
-    cout << "z2:"; cin >> z2;
+    cout << "z2: "; cin >> z2;
 
     // Äußere Schleife: Steuert die Zeilen
     for(int y = 0; y < z1; y++) {
@@ -24,7 +24,6 @@ int main (){
             // ));
 
             // Überprüfung der Positionen und Zeichenausgabe
-
             if(y == 0 || (y == (z1 - 1))) {
 
                 cout << "#"; // Oberste oder unterste Zeile: Ausgabe eines #
@@ -38,7 +37,7 @@ int main (){
                 cout << " "; // Innenraum: Ausgabe eines Leerzeichens
 
             }
-            
+
         }
 
         cout << endl; // Zeilenumbruch nach jeder Zeile

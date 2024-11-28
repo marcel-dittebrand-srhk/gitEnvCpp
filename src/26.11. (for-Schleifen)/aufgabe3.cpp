@@ -34,7 +34,7 @@ int main() {
                 Tenärer-Operator wird benutzt um zu prüfen, ob ein
                 Leerzeichen oder ein # ausgegeben werden soll.
             */
-            cout << ((y < (x + 1)) ? " " : "#"); // Gibt das # aus
+            cout << ((y < x) ? " " : "#"); // Gibt das # aus
 
         }
 
